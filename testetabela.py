@@ -10,8 +10,6 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import pandas as pd
-import os
-os.chdir("C://Users//tpc 02//Documents//receitas")
 from pesquisador import pesquisa
 
 
