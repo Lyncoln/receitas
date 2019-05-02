@@ -15,6 +15,7 @@ from pesquisador import pesquisa
 
 receitas = pd.read_csv("https://github.com/Lyncoln/receitas/raw/master/receitas.csv")
 app = dash.Dash()
+server = app.server
 
 df = pd.DataFrame(columns = ["nome","ingredientes","site"])
 
