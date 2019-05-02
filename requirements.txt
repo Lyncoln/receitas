@@ -1,0 +1,11 @@
+psutil==5.6.1
+psycopg2==2.7.6.1
+dash==0.40.0
+dash-core-components==0.45.0
+dash-html-components==0.15.0
+dash-renderer==0.21.0
+dash-table==3.6.0
+plotly==3.7.1
+gunicorn==19.9.0
+pandas==0.24.2
+numpy==1.16.3
