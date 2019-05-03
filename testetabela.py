@@ -26,6 +26,7 @@ app.layout = html.Div([html.H3("Entre os ingredientes:"),
         ]),
         dash_table.DataTable(id='table',
                              columns=[{"name": i, "id": i} for i in df.columns],
+                             style_cell={'textAlign': 'left'},
                              data=df.to_dict('records'))
 ])
 
